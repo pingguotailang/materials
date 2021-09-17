@@ -1,0 +1,9 @@
+# 忽略目录 
+build/ 
+node_modules/ 
+**/*-min.js 
+**/*.min.js 
+coverage/
+src/
+es/
+lib/

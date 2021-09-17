@@ -1,0 +1,13 @@
+.input-tag-wrap {
+	.hold-space-span {
+		visibility: hidden;
+	}
+
+	.input-tag {
+		position: absolute;
+		min-width: 100%;
+		left: 0;
+		height: 22px;
+		padding: 0 18px 0 4px;
+	}
+}

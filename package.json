@@ -1,0 +1,33 @@
+{
+  "name": "materials",
+  "version": "0.1.0",
+  "description": "我是一个物料库模板",
+  "author": "",
+  "scripts": {
+    "deploy": "npm run generate && npm run sync",
+    "generate": "iceworks generate",
+    "sync": "iceworks sync",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss"
+  },
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@ice/spec": "^1.0.1",
+    "eslint": "^6.0.1",
+    "stylelint": "^13.1.0",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "materialConfig": {
+    "template": "@icedesign/ice-react-material-template",
+    "type": "react",
+    "fusion-site": {
+      "id": 13886,
+      "name": "睿智-智能运维UCD中心",
+      "url": "https://fusion.design/api/v1/sites/13886/materials"
+    }
+  }
+}
