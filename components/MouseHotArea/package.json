@@ -56,5 +56,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://unpkg.com/mouse-hot-area@1.0.0/build/index.html"
 }
